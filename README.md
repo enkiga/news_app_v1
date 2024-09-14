@@ -1,16 +1,33 @@
-# news_app_v1
+# e_movies_v1: 
+## A Flutter App for Learning API Integration
 
-A new Flutter project.
+### Introduction
+This Flutter app, e_movies_v1, serves as a practical learning project for integrating APIs into Flutter applications. The app leverages the TMDB API to fetch and display movie data.
 
-## Getting Started
+### Key Features
+- API Integration: Seamlessly integrates the TMDB API to retrieve movie information.
+- API Models: Utilizes Dart classes to represent movie data, ensuring a structured approach.
+- User Interface: Provides a user-friendly interface for browsing and searching movies.
 
-This project is a starting point for a Flutter application.
+### Technologies
+- Flutter: A cross-platform framework for building mobile applications.
+- Dart: A client-optimized language for fast apps on any platform.
+- TMDB API: A RESTful API for accessing movie data.
 
-A few resources to get you started if this is your first Flutter project:
+### Setup
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `flutter pub get` to install dependencies.
+4. Create a TMDB account and obtain an API key.
+5. Create a file named 'Keys/api_key.dart' at the lib directory.
+6. Insert the API key in the 'api_key.dart' file as follows:
+```
+const tmdbApiKey = '******';
+```
+7. Run the app using `flutter run`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Conclusion
+e_movies_v1 demonstrates the process of integrating APIs into Flutter applications. By following the project, you can learn how to fetch and display data from external sources in your Flutter projects.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screenshots
+![Home Screen](lib/assets/Screenshot_1.png)
