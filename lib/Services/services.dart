@@ -1,10 +1,11 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
+import 'package:news_app_v1/Keys/api_key.dart';
 
 import '../Model/model.dart';
 
-const apiKey = "7eed901daca4dbf18cf01f5f4c31ab72";
+var apiKey = tmdbApiKey;
 
 class APIService {
   // For now showing movies
