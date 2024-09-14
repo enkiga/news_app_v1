@@ -5,7 +5,7 @@ import 'package:news_app_v1/Keys/api_key.dart';
 
 import '../Model/model.dart';
 
-var apiKey = tmdbApiKey;
+const apiKey = tmdbApiKey;
 
 class APIService {
   // For now showing movies
